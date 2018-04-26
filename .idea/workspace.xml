@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d373af8-9e70-40c0-a688-a7ba88150aad" name="Default" comment="" />
+    <list default="true" id="1f8ab5ea-2b26-49e2-be30-1e6ec755ea11" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/Factorial/.gradle/" />
-    <ignored path="$PROJECT_DIR$/Factorial/build/" />
-    <ignored path="$PROJECT_DIR$/Factorial/out/" />
+    <ignored path="$PROJECT_DIR$/Recursive Methods/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Recursive Methods/build/" />
+    <ignored path="$PROJECT_DIR$/Recursive Methods/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java">
+      <file leaf-file-name="Recursion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="902">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matryoshka.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/edu/gcccd/csis/Matryoshka.java">
+      <file leaf-file-name="RecursionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="-364">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +79,8 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":Factorial" />
-                <option name="path" value="$PROJECT_DIR$/Factorial" />
+                <option name="name" value=":Recursive Methods" />
+                <option name="path" value="$PROJECT_DIR$/Recursive Methods" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -227,133 +230,58 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/Factorial">
+        <entry key="$PROJECT_DIR$/Recursive Methods">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':Factorial'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays the components produced by project ':Recursive Methods'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays the sub-projects of project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':Factorial'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays the dependent components of components in project ':Recursive Methods'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':Factorial'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays all dependencies declared in project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="build" />
+                <option name="description" value="Displays the configuration model of project ':Recursive Methods'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':Factorial'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Factorial" />
+                <option name="description" value="Displays the properties of project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
                 <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':Recursive Methods'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Recursive Methods" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -362,12 +290,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7621302272072" />
+        <entry key="$PROJECT_DIR$" value="6097736441597" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/Factorial/build.gradle" value="4128662316" />
+        <entry key="$PROJECT_DIR$/Recursive Methods/build.gradle" value="3696594539" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1101310710" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3042044821" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1072390709" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -384,10 +312,10 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/Factorial">
+                  <entry key="$PROJECT_DIR$/Recursive Methods">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/Factorial" />
+                        <option name="path" value="$PROJECT_DIR$/Recursive Methods" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -488,29 +416,90 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/edu/gcccd/csis/Matryoshka.java" />
-        <option value="$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/gcccd/csis/edu/gcccd/csis/TestRecursion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="302" />
-    <option name="y" value="33" />
-    <option name="width" value="1603" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="width" value="1930" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recursion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recursive Methods" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recursion" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -524,10 +513,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.Factorial" />
-      <module name="Factorial" />
+  <component name="RunManager" selected="JUnit.RecursionTest">
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.Recursion" />
+      <module name="Recursion" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -536,19 +525,100 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Matryoshka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.edu.gcccd.csis.Matryoshka" />
-      <module name="Factorial" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.gcccd.csis.edu.gcccd.csis.*" />
+          <option name="PATTERN" value="edu.gcccd.csis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gcccd.csis" />
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.RecursionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="RecursionTest.printEveryOther" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gcccd.csis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gcccd.csis" />
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.RecursionTest" />
+      <option name="METHOD_NAME" value="printEveryOther" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RecursionTest.printStars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gcccd.csis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gcccd.csis" />
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.RecursionTest" />
+      <option name="METHOD_NAME" value="printStars" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RecursionTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gcccd.csis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.gcccd.csis" />
+      <option name="MAIN_CLASS_NAME" value="edu.gcccd.csis.RecursionTest" />
+      <option name="METHOD_NAME" value="sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -589,13 +659,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.Matryoshka" />
+      <item itemvalue="JUnit.RecursionTest.sum" />
+      <item itemvalue="JUnit.RecursionTest" />
+      <item itemvalue="Application.Recursion" />
+      <item itemvalue="JUnit.RecursionTest.printEveryOther" />
+      <item itemvalue="JUnit.RecursionTest.printStars" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Matryoshka" />
+        <item itemvalue="JUnit.RecursionTest" />
+        <item itemvalue="JUnit.RecursionTest.printEveryOther" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="JUnit.RecursionTest.printStars" />
+        <item itemvalue="JUnit.RecursionTest.sum" />
       </list>
     </recent_temporary>
   </component>
@@ -604,171 +680,187 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d373af8-9e70-40c0-a688-a7ba88150aad" name="Default" comment="" />
-      <created>1524260419343</created>
+      <changelist id="1f8ab5ea-2b26-49e2-be30-1e6ec755ea11" name="Default" comment="" />
+      <created>1524434046427</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524260419343</updated>
+      <updated>1524434046427</updated>
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 05m 36s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 07m 57s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 12m 28s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 12m 57s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 16m 58s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest - 2018.04.26 at 11h 17m 38s.xml">
+      <configuration name="RecursionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 26m 37s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 11h 47m 01s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest_printEveryOther - 2018.04.26 at 12h 34m 15s.xml">
+      <configuration name="RecursionTest.printEveryOther" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecursionTest - 2018.04.26 at 12h 34m 21s.xml">
+      <configuration name="RecursionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="27" width="1282" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1544" height="831" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32914925" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33379695" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32775453" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27929688" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14713542" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39330545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32914925" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32914925" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27967954" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3324138" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32965517" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="946">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/edu/gcccd/csis/Matryoshka.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="880">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="836">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/edu/gcccd/csis/Matryoshka.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="132">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="836">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/edu/gcccd/csis/Matryoshka.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial/src/main/java/edu/gcccd/csis/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="792">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/edu/gcccd/csis/TestRecursion.java" />
+    <entry file="file://$PROJECT_DIR$/../Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SelfAware/src/test/java/edu/gcccd/csis/SelfAwareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/gcccd/csis/RecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/gcccd/csis/Recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -792,22 +884,8 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Factorial</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
